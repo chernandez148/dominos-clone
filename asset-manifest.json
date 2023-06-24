@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dominos-clone/static/css/main.5e8038f3.css",
+    "main.js": "/dominos-clone/static/js/main.fda8c0ee.js",
+    "static/media/full-menu.jpeg": "/dominos-clone/static/media/full-menu.f283d6fa532851f70388.jpeg",
+    "static/media/side.webp": "/dominos-clone/static/media/side.cc6263a2a19eb802f9e0.webp",
+    "static/media/dominos-logo.png": "/dominos-clone/static/media/dominos-logo.141cf7497aafa47358ae.png",
+    "static/media/hero.webp": "/dominos-clone/static/media/hero.5d2c930ef13cb10ec445.webp",
+    "static/media/side-one.webp": "/dominos-clone/static/media/side-one.5d580ded2780d20e6d7e.webp",
+    "index.html": "/dominos-clone/index.html",
+    "main.5e8038f3.css.map": "/dominos-clone/static/css/main.5e8038f3.css.map",
+    "main.fda8c0ee.js.map": "/dominos-clone/static/js/main.fda8c0ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e8038f3.css",
+    "static/js/main.fda8c0ee.js"
+  ]
+}
