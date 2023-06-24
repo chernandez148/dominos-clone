@@ -1,0 +1,50 @@
+.Footer {
+    padding: 3rem 1.5rem;
+    background-color: #dbdbdb;
+    font-size: 16px;
+}
+
+.footer-wrapper {
+    display: flex;
+    background-color: #dbdbdb;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.Footer h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+ul {
+    margin: 5px 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.follow {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.follow-icons ul {
+    display: flex;
+}
+
+.follow-icons li {
+    color: #006491;
+    margin: 0 6px;
+}
+
+.follow-icons ul {
+    margin-right: 1.5rem;
+}

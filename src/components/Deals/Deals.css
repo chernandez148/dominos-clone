@@ -1,0 +1,345 @@
+@import url('../../fonts/fonts.css');
+
+.Deals {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    font-family: 'Bebas Neue', sans-serif;
+    gap: 8px;
+}
+
+.deals-right,
+.deals-left {
+    width: 50%;
+}
+
+.mix-match-deal {
+    background-image: url('../../assets/hero.webp');
+    background-size: cover;
+    padding: 15px !important;
+
+}
+
+.mix-match-deal h1 {
+    margin: 0;
+    font-size: 67px;
+    font-weight: 100 !important;
+    color: white;
+    text-shadow: 0 0 10px black;
+    line-height: 1;
+}
+
+.mix-match-deal h2 {
+    position: relative;
+    font-size: 27px;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px 20px;
+    font-weight: 100 !important;
+}
+
+.mix-match-deal .mix-match {
+    box-shadow: 0 0 10px black;
+}
+
+.mix-match-deal .mix-match:before {
+    border-color: transparent transparent transparent rgb(255 255 255);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 191px;
+    border-top: 28px solid transparent;
+    border-bottom: 28px solid transparent;
+    border-left: 15px solid #fff;
+}
+
+.mix-match-deal .mix-match:after {
+    border-color: transparent transparent transparent rgb(255 255 255);
+    border-style: solid;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -18px;
+    border-top: 28px solid transparent;
+    border-bottom: 28px solid transparent;
+    border-left: 15px solid #fff;
+    transform: rotateY(180deg);
+}
+
+.vr-lines h3 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 4px;
+    padding: 0 7px;
+    text-shadow: 0px 4px 3px black;
+}
+
+.mix-match-deal .vr-lines {
+    display: flex;
+    width: 200px;
+}
+
+.mix-match-deal .vr-lines hr {
+    transform: rotate(180deg);
+    width: 30px;
+    height: 0px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.mix-match-deal .new-tots {
+    display: flex;
+    align-items: center;
+}
+
+.mix-match-deal .new-tots h2:first-child {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600 !important;
+    font-size: 24px;
+    background-color: #e31837;
+    color: white;
+    padding: 5px 20px;
+    margin: 0;
+}
+
+.mix-match-deal .new-tots h2:last-child {
+    background-color: transparent;
+    color: white;
+    font-size: 36px;
+    text-shadow: 0 0 10px black;
+    padding: 0;
+}
+
+.mix-match-deal .price {
+    display: flex;
+}
+
+.price h1,
+h3 {
+    margin: 0 !important;
+}
+
+.price h1 {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: 900 !important;
+    font-size: 143px;
+    text-shadow: -8px 8px 0px #e31837;
+}
+
+.price h3 {
+    font-size: 77px;
+    color: white;
+    font-weight: 900 !important;
+    text-shadow: -6px 4px 0px #e31837;
+}
+
+.price .price-wrapper {
+    font-size: x-large;
+    text-shadow: none;
+    -webkit-text-stroke: 0;
+    font-weight: 100;
+}
+
+.price-wrapper h4 {
+    margin: 0;
+    color: white;
+    font-family: 'Old Standard TT';
+    font-weight: 900;
+    text-shadow: -1px 2px 5px black;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.mix-match-deal .order-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Deals .deals-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.deals-left h3 {
+    text-align: start;
+}
+
+.Deals button {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    background-color: #e31837;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.combo-deal {
+    background-image: url('../../assets/side.webp');
+    background-size: cover;
+    padding: 15px !important;
+}
+
+.combo-deal-title {
+    position: relative;
+    background: white;
+    display: inline-flex;
+    padding: 5px 10px;
+    font-weight: 100;
+    box-shadow: 0px 3px 4px 0px #00000059;
+    font-size: 14px !important;
+}
+
+.combo-deal-title::before {
+    border-color: transparent transparent transparent rgb(255 255 255);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 112px;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 12px solid #fff;
+}
+
+.combo-deal-title:after {
+    border-color: transparent transparent transparent rgb(255 255 255);
+    border-style: solid;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -15px;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 12px solid #fff;
+    transform: rotateY(180deg);
+}
+
+.combo-deal-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.carryout-deal-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.combo-deal-price {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 3rem;
+    color: white;
+}
+
+.combo-deal-price h1,
+.combo-deal-price h3 {
+    font-weight: 900 !important;
+    text-shadow: -6px 4px 0px #e31837;
+}
+
+.combo-deal-price h1 {
+    margin: 0 6px 0 0;
+    font-size: 94px;
+    line-height: 1;
+}
+
+.combo-deal-price h3 {
+    font-size: 50px
+}
+
+.carryout-deal {
+    background-image: url('../../assets/side-one.webp');
+    background-size: cover;
+    padding: 10px;
+}
+
+.carry-deal-left h1 {
+    margin: 5px 0;
+    font-size: 55px;
+    line-height: .90;
+    color: white;
+    font-weight: 100 !important;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+.carry-deal-left h3 {
+    color: white;
+    font-weight: 100;
+    font-size: 21px;
+    text-shadow: 0 0 10px black;
+
+}
+
+.carry-deal-left span {
+    font-style: italic;
+    text-decoration: underline;
+    margin-right: 2px;
+    transform: rotate(31deg) !important;
+}
+
+.carryout-deal-title {
+    position: relative;
+    background: white;
+    display: inline-flex;
+    padding: 5px 10px;
+    font-weight: 100;
+    box-shadow: 0px 3px 4px 0px #00000059;
+    margin-left: 0.75rem !important;
+    color: black !important;
+    text-shadow: none !important;
+    font-size: 14px !important;
+}
+
+.carryout-deal-title::before {
+    border-color: transparent transparent transparent rgb(255 255 255);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 87px;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 12px solid #fff;
+}
+
+.carryout-deal-title::after {
+    border-color: transparent transparent transparent rgb(255 255 255);
+    border-style: solid;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -15px;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 12px solid #fff;
+    transform: rotateY(180deg);
+}
+
+.carry-deal-right {
+    display: flex;
+}
+
+.carry-deal-right h1,
+.carry-deal-right h3 {
+    font-weight: 900 !important;
+    text-shadow: -6px 4px 0px #e31837;
+    color: white;
+}
+
+.carry-deal-right h1 {
+    margin: 0 6px 0 0;
+    font-size: 94px;
+    line-height: 1;
+}
+
+.carry-deal-right h3 {
+    font-size: 50px;
+}
+
+.carryout-deal button {
+    float: right;
+}

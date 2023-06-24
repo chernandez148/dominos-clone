@@ -1,0 +1,34 @@
+@import url('../../fonts/fonts.css');
+
+.OrderBanner {
+    display: flex;
+    padding: 25px;
+}
+
+.OrderBanner h1 {
+    padding: 0 40px 0 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    color: #006491;
+}
+
+.OrderBanner h2 {
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    padding: 0 12px;
+    color: #7f7f7f;
+}
+
+.OrderBanner button {
+    background-color: rgb(227, 24, 55);
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 15px 0px;
+    border: none;
+    padding: 0 50px;
+    color: white;
+}
+
+.OrderBanner hr {
+    transform: rotate(90deg);
+}
